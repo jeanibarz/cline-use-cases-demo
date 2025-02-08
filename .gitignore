@@ -1,0 +1,45 @@
+# Bytecode
+*.pyc
+*.pyo
+
+# Distribution / packaging
+.eggs
+dist/
+build/
+develop-eggs/
+lib/
+lib64/
+parts/
+wheels/
+*.egg-info/
+.installed.cfg
+*.whl
+MANIFEST.in
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written into a temporary folder during processing.
+#  being very verbose, it is best to ignore all of them.
+_MEI*
+#  the 'dist' folder contains executable(s) built by pyinstaller
+dist/
+
+# Spyder project
+.spyderproject
+.spyproject
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS generated files #
+.DS_Store
+Thumbs.db
